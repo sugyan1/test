@@ -1,0 +1,40 @@
+2020-09-12 10:45:34 INFO  [NewwalletController:94] - debit wallet request for double layerDoubleDebitwalletRequest [id=763973360599056, userid=34202, apiuserid=18272, walletid=108426, apiwalletid=69894, amount=30000.0, type=WALLET2CASHOUT, serviceProviderId=722, apiServiceProviderId=722]
+2020-09-12 10:45:34 INFO  [DebitServiceImpl:35] - Prevoius amount for api user 897743.3172008002of  api wallet id69894of transaction763973360599056
+2020-09-12 10:45:34 INFO  [DebitServiceImpl:38] - Prevoius amount for user 35229.674999999996of wallet id108426of transaction763973360599056
+2020-09-12 10:45:34 INFO  [UserDetectInterceptor:35] - Request URL = http://35.200.200.163:8080/, Start Time = 1599887734981, Client IP = 34.72.188.190, agent.getDeviceCategory().getName() = , agent.getName() = unknown, agent.getOperatingSystem().getName() = unknown, agent.getTypeName() =
+2020-09-12 10:45:34 INFO  [UserDetectInterceptor:65] -
+-------- LogInterception.postHandle ---
+2020-09-12 10:45:34 INFO  [UserDetectInterceptor:66] - Request URL: http://35.200.200.163:8080/
+2020-09-12 10:45:34 INFO  [UserDetectInterceptor:82] - Request URL = http://35.200.200.163:8080/, Start Time = 1599887734981, End Time= 1599887734983, Time Taken = 2
+2020-09-12 10:45:37 INFO  [UserDetectInterceptor:35] - Request URL = http://walletprod.iserveu.online/api/creditwallet, Start Time = 1599887737893, Client IP = 35.200.154.12, 162.158.165.240, 34.120.104.179, agent.getDeviceCategory().getName() = Other, agent.getName() = Java, agent.getOperatingSystem().getName() = JVM (Java), agent.getTypeName() = Library
+2020-09-12 10:45:37 INFO  [NewwalletController:40] - Credit wallet requestCreditWalletRequest [id=754208565333336064, userid=83430, apiuserid=19180, walletid=154310, apiwalletid=69761, amount=7000.0, type=AEPS_CASH_WITHDRAWAL, serviceProviderId=545, apiServiceProviderId=556]
+2020-09-12 10:45:37 INFO  [CreditServiceImpl:41] - Prevoius amount for api user 3359657.13320249of  api wallet id69761of transaction754208565333336064
+2020-09-12 10:45:37 INFO  [CreditServiceImpl:46] - Prevoius amount for user 8444.046of wallet id154310of transaction754208565333336064
+2020-09-12 10:45:37 INFO  [CreditServiceImpl:101] - current amount for api user 3366657.13320249of  api wallet id69761of transaction754208565333336064
+2020-09-12 10:45:37 INFO  [CreditServiceImpl:104] - current amount for  user 15444.046of  wallet id154310of transaction754208565333336064
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:46] - Prevoius amount for user 15444.046of wallet id154310of transaction754208580239892480
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:104] - current amount for  user 15452.046of  wallet id154310of transaction754208580239892480
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:46] - Prevoius amount for user 13.604600000000003of wallet id150112of transaction754208580495745024
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:104] - current amount for  user 14.604600000000003of  wallet id150112of transaction754208580495745024
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:46] - Prevoius amount for user 216992.2519999569of wallet id69760of transaction754208580747403264
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:104] - current amount for  user 216995.0019999569of  wallet id69760of transaction754208580747403264
+2020-09-12 10:45:38 INFO  [DebitServiceImpl:35] - Prevoius amount for api user 867743.3172008002of  api wallet id69894of transaction763973360599056
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:46] - Prevoius amount for user 3366657.13320249of wallet id69761of transaction754208581196193792
+2020-09-12 10:45:38 INFO  [DebitServiceImpl:38] - Prevoius amount for user 5229.674999999996of wallet id108426of transaction763973360599056
+2020-09-12 10:45:38 INFO  [CreditServiceImpl:104] - current amount for  user 3366668.88320249of  wallet id69761of transaction754208581196193792
+2020-09-12 10:45:38 INFO  [DebitServiceImpl:49] - Request Balance is:30000.0
+2020-09-12 10:45:38 INFO  [DebitServiceImpl:50] - Balance Not available in wallet of id :108426 Balance is:5229.674999999996
+ OR In API Wallet of Id :69894  Balance :867743.3172008002      For Transaction Id:763973360599056
+2020-09-12 10:45:42 INFO  [DebitServiceImpl:35] - Prevoius amount for api user 867743.3172008002of  api wallet id69894of transaction763973360599056
+2020-09-12 10:45:42 INFO  [DebitServiceImpl:38] - Prevoius amount for user 5229.674999999996of wallet id108426of transaction763973360599056
+2020-09-12 10:45:42 INFO  [DebitServiceImpl:49] - Request Balance is:30000.0
+2020-09-12 10:45:42 INFO  [DebitServiceImpl:50] - Balance Not available in wallet of id :108426 Balance is:5229.674999999996
+ OR In API Wallet of Id :69894  Balance :867743.3172008002      For Transaction Id:763973360599056
+2020-09-12 10:45:45 INFO  [DebitServiceImpl:35] - Prevoius amount for api user 897743.3172008002of  api wallet id69894of transaction763973360599056
+2020-09-12 10:45:45 INFO  [DebitServiceImpl:38] - Prevoius amount for user 35229.674999999996of wallet id108426of transaction763973360599056
+2020-09-12 10:45:45 INFO  [NewwalletController:96] - debit response of id108426with status{Status=false, StatusDesc=Insufficient Fund in Wallet}
+2020-09-12 10:45:45 INFO  [UserDetectInterceptor:65] -
+-------- LogInterception.postHandle ---
+2020-09-12 10:45:45 INFO  [UserDetectInterceptor:66] - Request URL: http://walletprod.iserveu.online/api/double/debitwallet
+2020-09-12 10:45:45 INFO  [UserDetectInterceptor:82] - Request URL = http://walletprod.iserveu.online/api/double/debitwallet, Start Time = 1599887734337, End Time= 1599887745835, Time Taken = 11498
+2020-09-12 10:45:51 INFO  [UserDetectInterceptor:35] - Request URL = http://walletprod.iserveu.online/api/creditwallet, Start Time = 1599887751787, Client IP = 34.93.67.173, 162.158.167.42, 34.120.104.179, agent.getDeviceCategory().getName() = Other, agent.getName() = Java, agent.getOperatingSystem().getName() = JVM (Java), agent.getTypeName() = Library
